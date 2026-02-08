@@ -2,6 +2,7 @@ let score = "11abc"
 let temprature = null
 let undef = undefined
 let ZO = true
+let num = 13
 console.log(typeof score);
 console.log(typeof (score));
 console.log(typeof temprature);
@@ -10,10 +11,13 @@ console.log(typeof undef);
 console.log(typeof (undef));
 console.log(typeof ZO);
 console.log(typeof (ZO));
+console.log(typeof num);
+console.log(typeof (num));
 let VIN = Number(score)
 let NN = Number(temprature)//temprature was null not 0 but it says temprature is 0 after conversion.
 let NDef = Number(undef)
 let IZO = Number(ZO)
+let cnum= String(num) //it will convert number to string if it is in correct format otherwise it will give NaN
 
 
 
@@ -23,6 +27,10 @@ console.log(typeof NN);
 console.log(NN); 
 console.log(typeof NDef); 
 console.log(NDef); 
+
+console.log(typeof cnum); 
+console.log(cnum); 
+
 console.log(typeof IZO); 
 console.log(IZO); //BUT FOR STRING IT WAS SAME AS SCORE
 // 11=11
