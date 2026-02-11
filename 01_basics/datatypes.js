@@ -45,11 +45,11 @@ console.log(typeof arr); // object because arrays are objects in JavaScript and 
 // example of using Array.isArray() method
 console.log(Array.isArray(arr));    // true because arr is an array
 // example of using instanceof operator
-console.log(arr instanceof Array); // true because arr is an instance of the Array constructor function 
-
+console.log(arr instanceof Array);  // true because arr is an instance of the Array constructor function 
 
 
 //Objects are a collection of key-value pairs and they are used to store data in a structured way. they are also used to create complex data structures and to represent real-world entities in code. objects can have properties and methods and they can be created using object literals, constructor functions, or classes in JavaScript. objects are mutable and they are compared by reference, which means that two objects are considered equal if they reference the same object in memory, not if they have the same properties and values.
+
 let obj = {
     name: "Fahad",
     age: 5,
