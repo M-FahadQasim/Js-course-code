@@ -101,3 +101,5 @@ let greet3 = () => {
 }
 console.log(greet3);
 console.log(typeof greet3); // function
+
+console.log(typeof sym1);
